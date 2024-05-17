@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Crime Reporting System- Report A Crime</title>
+	<link rel="stylesheet" href="./css/INDEX.CSS">
+
+
+
+</head>
+
+<body>
+	<img src="image/homeimg2.jpg" class="image" alt="background image">
+	<div class="overlay"></div>
+	<p
+		style="color:white; background-color: rgb(19, 19, 121);padding:10px; text-align: left ; font-size:11px;font-weight:bolder;">
+		&emsp; &emsp; &emsp; &emsp; &emsp;भारत सरकार | गृह मंत्रालय <br> GOVERNMENT OF INDIA | MINISTRY OF HOME AFFAIRS
+	</p>
+
+
+
+	<div class="logo">
+		<img src="./image/satymev_jayte_logo.jpg" width="100px" height="100px">
+		<p style="font-weight:bolder;font-size:40px; position:absolute;top:50px; left:150px;"> अपराध रिपोर्टिंग
+			पोर्टल<br> Crime Reporting Portal </p>
+		<img src="./image/amritmahotsav_logo.jpg" width="200px" height="100px"
+			style="position:absolute;right:50px; top:60px;">
+	</div>
+
+	<nav>
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="#">Register a complaint</a></li>
+			<li><a href="about.html">FAQ</a></li>
+			<li><a href="cyber_safety.html ">Cyber Security saftey tip</a></li>
+			<li><a href="contact_us.html">Contact Us</a></li>
+			<li><a href="adminlogin.html">ADMINISTRATOR LOGIN</a></li>
+		</ul>
+	</nav>
+	<br><br><br><br>
+
+	<div class="page-wrapper">
+
+		<h1 class="heading">Report A Crime </h1>
+		<div class="container">
+
+			<br>
+
+			<form action="index.php" method="POST">
+				<input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+				<input type="email" name="email" id="email" placeholder="Enter Your Email ID" required><br>
+				<input type="text" name="age" id="age" placeholder="Enter Your Age" required>
+				<input type="text" name="gender" id="gender" placeholder="Enter Your Gender (M/F)" required><br>
+				<input type="text" name="phone" id="phone" placeholder="Enter Your Phone Number (max. 10 characters)"
+					required>
+				<input type="text" name="aadhaar" id="aadhaar"
+					placeholder="Enter Your AADHAAR Enrollment Number (max. 16 characters)" required><br>
+				<input type="place" name="place" id="place" placeholder="Enter the Location of the Crime" required>
+				<input type="date" name="date" id="date" placeholder="Enter date of crime" required><br>
+				<textarea name="desc" id="desc" cols="30" rows="10" style="width:50%;"
+					placeholder="Enter the details of the crime, i.e., how did the attack take place, the details of the victims, any information about the criminals, and the details of the eyewitnesses, if present at the location. "
+					required></textarea><br>
+				<button class="btn"
+					style="background-color: rgb(19, 19, 121);position:absolute;left:250px;margin-top:10px;">Submit
+				</button>
+
+			</form>
+
+		</div>
+
+
+
+
+
+
+
+	</div>
+</body>
+</head>
